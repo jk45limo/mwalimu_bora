@@ -1,0 +1,133 @@
+.teacher-profile {
+    position: relative;
+    margin-bottom: 1.5 rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10 px;
+    padding: 0 px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    border: 1 px solid #efeffd;
+}
+
+.top-teacher-profile {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.top-teacher-profile img {
+    height: 130px;
+    width: 130px;
+    margin-bottom: 30px !important;
+    box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    border-radius: 50% !important;
+}
+
+.bottom-teacher-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.bottom-teacher-profile h3 {
+    line-height: 1.3rem;
+    font-weight: bold;
+}
+
+.bottom-teacher-profile h4 {
+    background-color: #e8e1ff;
+    color: #7047ee;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.bottom-teacher-profile section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    padding: 2rem 0rem;
+    font-weight: 800;
+}
+
+.teacher-profile-content {
+    position: relative;
+    margin-bottom: 1.5 rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10 px;
+    padding: 0 px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    border: 1 px solid #efeffd;
+    padding: 2rem 1rem;
+}
+
+.teacher-about-content {
+    margin-top: 2rem;
+}
+
+.row-contents div section {
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.row-contents div section span:first-child {
+    margin-right: .8rem;
+    font-weight: bold;
+}
+
+.top-teacher-about-content p {
+    line-height: 1.8;
+}
+
+.teacher-account-content {
+    padding: 2rem 1rem;
+}
+
+.widget-bg1 {
+    background-color: #fff8dd;
+    padding: 1rem .5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.widget-bg2 {
+    background-color: #e8fff3;
+    padding: 1rem .5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.widget-bg3 {
+    background-color: #fff5f8;
+    padding: 1rem .5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.widget-bg4 {
+    background-color: #f8f5ff;
+    padding: 1rem .5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}

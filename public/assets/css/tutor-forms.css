@@ -1,0 +1,136 @@
+.teacher-form {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    min-height: 100vh;
+}
+
+.teacher-form .teacher-form-img {
+    background: url(../img/Mask\ Group\ 26@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teacher-form .teacher-form-form {
+    background: url(../img/Group\ 100.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.teacher-form-form form{
+    height: 100%;
+    width: 100%;
+    background-color: #f4f8f8;
+    padding: 3rem 2rem;
+    opacity: .8;
+    
+}
+.teacher-form-form form h3{
+   font-weight: bolder; 
+   margin-bottom: 2rem;
+}
+.teacher-form-form form .nav .nav-item .nav-link{
+    color: #979b9e; 
+    font-weight: 400;
+}
+.teacher-form-form form .nav .nav-item .nav-link.active{
+    background-color: transparent;
+    color: tomato;
+    font-weight: bold; 
+}
+.teacher-form-form form .tab-content{
+    border-top: 2px solid #979b9e; 
+}
+.teacher-form-form form h3.category-name{
+    margin: 1rem 0;
+    font-size: 16px;
+}
+.teacher-form-form form .form-wrap .form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.teacher-form-form form .form-wrap .form-item label{
+    font-weight: 600;
+    margin-bottom: .2rem;
+}
+textarea{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e1e7eb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+}
+textarea:focus{
+    transition: none;
+    outline: none;
+}
+.teacher-form-form form .form-wrap .form-item .input-field{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e1e7eb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    
+}
+.teacher-form-form form .form-wrap .form-item .input-field:focus{
+    transition: none;
+    outline: none;
+}
+
+.form-next-button{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    margin: 1rem auto;
+    background-color: #009FE3;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    border-radius: 1px;
+    border:1px solid #e1e7eb;
+}
+.remember-login{
+    display: flex;
+    justify-content: space-between;
+}
+.teacher-select-subject:not(:first-child){
+    margin-top: -.8rem;
+}
+ 
+.teacher-select-subject label{
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 992px) {
+    .teacher-form {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        min-height: 100vh;
+    }
+    
+    .teacher-form .teacher-form-img {
+       display: none;
+    }
+}

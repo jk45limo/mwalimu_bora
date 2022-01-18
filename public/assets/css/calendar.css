@@ -1,0 +1,289 @@
+.exam-calendar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    margin-top: 80px;
+    background-image: url(../img/top-banner-image.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.teacher-connect {
+    background-color: #eff3f7;
+    padding: 2rem 4rem
+}
+
+.top-teacher-connect span {
+    color: #00A7E6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.top-teacher-connect h4 {
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.top-teacher-connect p {
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+.bottom-teacher-connect {
+    width: 90%;
+    margin: 0 auto 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.b-t-connect {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #f4f8f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-b-t-connect {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-b-t-connect h3 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #00A7E6;
+}
+
+.top-b-t-connect h5 {
+    margin-top: 50px;
+    margin-left: 1rem;
+    font-size: 30px;
+    color: #00A7E6;
+}
+
+.bottom-b-t-connect p {
+    font-size: 14px;
+}
+
+.top-b-t-connect .top-change-position {
+    margin-top: 18px;
+}
+
+.top-change-check {
+    margin-top: 35px;
+}
+
+.enroll-teacher {
+    position: relative;
+    background: url(../img/teachers-index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.enroll-teacher-container {
+    position: absolute;
+    left: 40%;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    width: 40vw;
+}
+
+.enroll-teacher-container h4 {
+    font-weight: bolder;
+    margin-bottom: .6rem;
+}
+
+.enroll-teacher-item {
+    margin-top: 2rem;
+}
+
+.enroll-teacher-item h5 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.enroll-teacher-item:last-child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+
+.enroll-teacher-link {
+    text-align: center;
+    width: 100%;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    background-color: #00A7E6;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.enroll-teacher-link:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.delighted-customers {
+    background-color: #fff;
+    padding: 2rem 4rem;
+}
+
+.delighted-customers span {
+    color: #00A7E6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.delighted-customers h4 {
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.teacher-testimonials {
+    padding: 0rem 4rem;
+}
+
+.teacher-testimonials .testimonial-wrap {
+    padding: 0 1rem;
+
+}
+
+.teacher-testimonials .testimonial-item {
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 1px;
+    height: 150px;
+    box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
+    position: relative;
+    background: #fff;
+    border: 1px solid #f4f8f8;
+}
+
+.teacher-testimonials .testimonial-item .bottom-testimonial-item {
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.teacher-testimonials .testimonial-item .top-testimonial-item {
+    padding-right: 3rem;
+
+}
+
+.teacher-testimonials .testimonial-item .top-testimonial-item p {
+    font-size: 15px;
+}
+
+.teacher-testimonials .testimonial-item .bottom-testimonial-item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.teacher-testimonials .testimonial-item .bottom-testimonial-item h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #166ab5;
+}
+
+.testimonials .swiper-pagination {
+    margin-top: 50px;
+    position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #1977cc;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #1977cc;
+}
+
+
+@media screen and (max-width: 850px) {
+    .teacher-form {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 100%;
+        min-height: 100vh;
+    }
+
+    .teacher-form .teacher-form-img {
+        display: none;
+    }
+    .bottom-teacher-connect {
+        width: 100%;
+        margin: 0 auto 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1%;
+    }
+    .enroll-teacher-container { 
+        left: 0%; 
+        width: 100%;
+        padding: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .bottom-teacher-connect {
+        width: 100%;
+        margin: 0 auto 0 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .enroll-teacher-container { 
+         
+        padding: 1rem;
+    }
+    .teacher-connect {
+        padding: 2rem 1rem
+    }
+    .enroll-teacher-item:last-child {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5%;
+    }
+    .teacher-testimonials {
+        padding: 0rem 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+   
+    .teacher-testimonials {
+        padding: 0rem 1rem;
+    }
+    .teacher-testimonials .testimonial-item .bottom-testimonial-item {
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .teacher-testimonials .testimonial-item { 
+        min-height: 150px; 
+    }
+}
